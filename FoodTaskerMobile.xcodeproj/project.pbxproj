@@ -12,6 +12,14 @@
 		2073EC8321EC37C0009DBDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2073EC8121EC37C0009DBDAF /* Main.storyboard */; };
 		2073EC8521EC37C1009DBDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2073EC8421EC37C1009DBDAF /* Assets.xcassets */; };
 		2073EC8821EC37C1009DBDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2073EC8621EC37C1009DBDAF /* LaunchScreen.storyboard */; };
+		20D6272C21EC672300B79F5F /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6272B21EC672300B79F5F /* CustomerMenuTableViewController.swift */; };
+		20D6272E21EC6F6100B79F5F /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6272D21EC6F6100B79F5F /* MealListTableViewController.swift */; };
+		20D6273121EC837900B79F5F /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6273021EC837900B79F5F /* FBManager.swift */; };
+		20D6273321EC8A8F00B79F5F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6273221EC8A8F00B79F5F /* LoginViewController.swift */; };
+		20D6273521EC940700B79F5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6273421EC940700B79F5F /* User.swift */; };
+		20D853D221EC5A2600FD2B0E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D853D121EC5A2600FD2B0E /* SWRevealViewController.m */; };
+		20D853D621EC5CE800FD2B0E /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D853D521EC5CE800FD2B0E /* RestaurantViewController.swift */; };
+		E2C0B11592B834E8EC579BC1 /* Pods_FoodTaskerMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E773ECCFE10EE5F12754DC /* Pods_FoodTaskerMobile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,19 @@
 		2073EC8421EC37C1009DBDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2073EC8721EC37C1009DBDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2073EC8921EC37C1009DBDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D6272B21EC672300B79F5F /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
+		20D6272D21EC6F6100B79F5F /* MealListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
+		20D6272F21EC80D700B79F5F /* FoodTaskerMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodTaskerMobile.entitlements; sourceTree = "<group>"; };
+		20D6273021EC837900B79F5F /* FBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
+		20D6273221EC8A8F00B79F5F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20D6273421EC940700B79F5F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		20D853D021EC5A2600FD2B0E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		20D853D121EC5A2600FD2B0E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		20D853D421EC5AE900FD2B0E /* FoodTaskerMobile-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoodTaskerMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		20D853D521EC5CE800FD2B0E /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		3C0A73CE886986DEBB247746 /* Pods-FoodTaskerMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTaskerMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTaskerMobile/Pods-FoodTaskerMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CB6798EE0475120928A3B8 /* Pods-FoodTaskerMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTaskerMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTaskerMobile/Pods-FoodTaskerMobile.release.xcconfig"; sourceTree = "<group>"; };
+		F3E773ECCFE10EE5F12754DC /* Pods_FoodTaskerMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTaskerMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C0B11592B834E8EC579BC1 /* Pods_FoodTaskerMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6CE06E94CB87DE6A25C03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E773ECCFE10EE5F12754DC /* Pods_FoodTaskerMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2073EC7121EC37C0009DBDAF = {
 			isa = PBXGroup;
 			children = (
 				2073EC7C21EC37C0009DBDAF /* FoodTaskerMobile */,
 				2073EC7B21EC37C0009DBDAF /* Products */,
+				879D070789A710973555B066 /* Pods */,
+				1E6CE06E94CB87DE6A25C03F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,41 @@
 		2073EC7C21EC37C0009DBDAF /* FoodTaskerMobile */ = {
 			isa = PBXGroup;
 			children = (
+				20D6272F21EC80D700B79F5F /* FoodTaskerMobile.entitlements */,
+				2073EC9321EC4314009DBDAF /* Lib */,
 				2073EC7D21EC37C0009DBDAF /* AppDelegate.swift */,
 				2073EC7F21EC37C0009DBDAF /* ViewController.swift */,
 				2073EC8121EC37C0009DBDAF /* Main.storyboard */,
 				2073EC8421EC37C1009DBDAF /* Assets.xcassets */,
 				2073EC8621EC37C1009DBDAF /* LaunchScreen.storyboard */,
 				2073EC8921EC37C1009DBDAF /* Info.plist */,
+				20D853D521EC5CE800FD2B0E /* RestaurantViewController.swift */,
+				20D6272B21EC672300B79F5F /* CustomerMenuTableViewController.swift */,
+				20D6272D21EC6F6100B79F5F /* MealListTableViewController.swift */,
+				20D6273021EC837900B79F5F /* FBManager.swift */,
+				20D6273221EC8A8F00B79F5F /* LoginViewController.swift */,
+				20D6273421EC940700B79F5F /* User.swift */,
 			);
 			path = FoodTaskerMobile;
+			sourceTree = "<group>";
+		};
+		2073EC9321EC4314009DBDAF /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				20D853D421EC5AE900FD2B0E /* FoodTaskerMobile-Bridging-Header.h */,
+				20D853D021EC5A2600FD2B0E /* SWRevealViewController.h */,
+				20D853D121EC5A2600FD2B0E /* SWRevealViewController.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		879D070789A710973555B066 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C0A73CE886986DEBB247746 /* Pods-FoodTaskerMobile.debug.xcconfig */,
+				F3CB6798EE0475120928A3B8 /* Pods-FoodTaskerMobile.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2073EC8C21EC37C1009DBDAF /* Build configuration list for PBXNativeTarget "FoodTaskerMobile" */;
 			buildPhases = (
+				17ECF70F7654C431AF3C472E /* [CP] Check Pods Manifest.lock */,
 				2073EC7621EC37C0009DBDAF /* Sources */,
 				2073EC7721EC37C0009DBDAF /* Frameworks */,
 				2073EC7821EC37C0009DBDAF /* Resources */,
+				2B7A24081194CAD8A5475F24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +157,12 @@
 				TargetAttributes = {
 					2073EC7921EC37C0009DBDAF = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,13 +197,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17ECF70F7654C431AF3C472E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTaskerMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7A24081194CAD8A5475F24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodTaskerMobile/Pods-FoodTaskerMobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTaskerMobile/Pods-FoodTaskerMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2073EC7621EC37C0009DBDAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2073EC8021EC37C0009DBDAF /* ViewController.swift in Sources */,
+				20D853D621EC5CE800FD2B0E /* RestaurantViewController.swift in Sources */,
+				20D6272E21EC6F6100B79F5F /* MealListTableViewController.swift in Sources */,
 				2073EC7E21EC37C0009DBDAF /* AppDelegate.swift in Sources */,
+				20D6273321EC8A8F00B79F5F /* LoginViewController.swift in Sources */,
+				20D6273521EC940700B79F5F /* User.swift in Sources */,
+				20D6272C21EC672300B79F5F /* CustomerMenuTableViewController.swift in Sources */,
+				20D853D221EC5A2600FD2B0E /* SWRevealViewController.m in Sources */,
+				20D6273121EC837900B79F5F /* FBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +411,13 @@
 		};
 		2073EC8D21EC37C1009DBDAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0A73CE886986DEBB247746 /* Pods-FoodTaskerMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodTaskerMobile/FoodTaskerMobile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK48NMVBLU;
 				INFOPLIST_FILE = FoodTaskerMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +425,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wscode.FoodTaskerMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTaskerMobile/Lib/FoodTaskerMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +434,13 @@
 		};
 		2073EC8E21EC37C1009DBDAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CB6798EE0475120928A3B8 /* Pods-FoodTaskerMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodTaskerMobile/FoodTaskerMobile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK48NMVBLU;
 				INFOPLIST_FILE = FoodTaskerMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wscode.FoodTaskerMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTaskerMobile/Lib/FoodTaskerMobile-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
